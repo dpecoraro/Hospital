@@ -1,0 +1,9 @@
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\bin\Debug\netcoreapp3.1\BUSINESSLOGIC.deps.json
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\bin\Debug\netcoreapp3.1\BUSINESSLOGIC.dll
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\bin\Debug\netcoreapp3.1\BUSINESSLOGIC.pdb
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\obj\Debug\netcoreapp3.1\BUSINESSLOGIC.csprojAssemblyReference.cache
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\obj\Debug\netcoreapp3.1\BUSINESSLOGIC.AssemblyInfoInputs.cache
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\obj\Debug\netcoreapp3.1\BUSINESSLOGIC.AssemblyInfo.cs
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\obj\Debug\netcoreapp3.1\BUSINESSLOGIC.csproj.CoreCompileInputs.cache
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\obj\Debug\netcoreapp3.1\BUSINESSLOGIC.dll
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\BUSINESSLOGIC\obj\Debug\netcoreapp3.1\BUSINESSLOGIC.pdb

@@ -1,0 +1,9 @@
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\bin\Debug\netcoreapp3.1\SERVICES.deps.json
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\bin\Debug\netcoreapp3.1\SERVICES.dll
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\bin\Debug\netcoreapp3.1\SERVICES.pdb
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\obj\Debug\netcoreapp3.1\SERVICES.csprojAssemblyReference.cache
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\obj\Debug\netcoreapp3.1\SERVICES.AssemblyInfoInputs.cache
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\obj\Debug\netcoreapp3.1\SERVICES.AssemblyInfo.cs
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\obj\Debug\netcoreapp3.1\SERVICES.csproj.CoreCompileInputs.cache
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\obj\Debug\netcoreapp3.1\SERVICES.dll
+C:\Users\dpeco\Documents\Repository\Hospital_v2\Hospital\SERVICES\obj\Debug\netcoreapp3.1\SERVICES.pdb
