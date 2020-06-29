@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj": {}
+    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj": {
+    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj",
+        "projectUniqueName": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj",
         "projectName": "BUSINESSLOGIC",
-        "projectPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj",
+        "projectPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\BUSINESSLOGIC\\BUSINESSLOGIC.csproj",
         "packagesPath": "C:\\Users\\dpeco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\BUSINESSLOGIC\\obj\\",
+        "outputPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\BUSINESSLOGIC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

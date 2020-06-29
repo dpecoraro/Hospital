@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Dhp+Ux6aCgG0UE3krJnB6qFpQtF6Bo2sYfeRLEg7zezfNVWmD10Xy1wIb25jSIW2ptT+GALVWSYaukG8NBlOA==",
+  "dgSpecHash": "CCHrry06wRisIU7dqtTD3vmWT4blCM4DAMbWvPFPLj0JUIR8En12Ptl3YbA6RmOdMWa7lC0+eAHBDVh7GzW3MA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\SERVICES\\SERVICES.csproj",
+  "projectFilePath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\SERVICES\\SERVICES.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

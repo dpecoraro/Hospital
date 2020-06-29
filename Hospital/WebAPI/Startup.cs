@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BUSINESSLOGIC.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -11,7 +12,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WebAPI.ApiServices;
+using WebAPI.ApiServices.Interface;
+using WebAPI.Repository;
 using WebAPI.Repository.Context;
+using WebAPI.Repository.Interface;
 
 namespace WebAPI
 {
@@ -29,8 +34,22 @@ namespace WebAPI
         {
             services.AddControllers();
 
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+
+
+            #region [ Context e Repositórios ]
             services.AddDbContext<HospitalContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("HospitalDatabase")));
+
+            services.AddScoped<IHospitalRepository, HospitalRepository>(r => new HospitalRepository(Configuration.GetSection("AppSettings").Get<AppSettings>().HospitalDatabase));
+            //services.AddScoped<IHospitalRepository, HospitalRepository>(r => new HospitalRepository(Configuration.GetConnectionString("HospitalDatabase")));
+            #endregion
+
+            #region [ Serviços ]
+            services.AddScoped<IHospitalService, HospitalService>();
+
+            #endregion
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

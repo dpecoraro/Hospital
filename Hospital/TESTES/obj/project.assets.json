@@ -4634,11 +4634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\TESTES\\TESTES.csproj",
+      "projectUniqueName": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\TESTES\\TESTES.csproj",
       "projectName": "TESTES",
-      "projectPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\TESTES\\TESTES.csproj",
+      "projectPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\TESTES\\TESTES.csproj",
       "packagesPath": "C:\\Users\\dpeco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\TESTES\\obj\\",
+      "outputPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\TESTES\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

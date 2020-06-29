@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BUSINESSLOGIC.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,27 +8,45 @@ using WebAPI.Repository.Model;
 
 namespace WebAPI.Repository.Context
 {
-    public class HospitalContext : DbContext
+    public class HospitalContext : GenericContext
     {
+        private readonly string _connectionString;
+
         public HospitalContext(DbContextOptions<HospitalContext> options) : base(options)
         {
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public HospitalContext(string connection)
         {
+            _connectionString = connection;
         }
 
-        private static DbContextOptions GetOptions(string connectionString) =>
-        SqlServerDbContextOptionsExtensions.UseSqlServer(new DbContextOptionsBuilder(), connectionString).Options;
+        public HospitalContext(ConnectionDetail connection)
+        {
+            _connectionString = connection.ConnectionString;
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(_connectionString);
+            }
+
+            base.OnConfiguring(optionsBuilder);
+        }
+
+        private static DbContextOptions GetOptions(string _connectionString) =>
+        SqlServerDbContextOptionsExtensions.UseSqlServer(new DbContextOptionsBuilder(), _connectionString).Options;
 
 
         #region [ DbSet ]
 
-        public DbSet<TB_ATENDIMENTO> Atendimentos { get; set; }
-        public DbSet<TB_ENDERECO> Enderecos { get; set; }
-        public DbSet<TB_FUNCIONARIO> Funcionarios { get; set; }
-        public DbSet<TB_MEDICAMENTO> Medicamentos { get; set; }
-        public DbSet<TB_PACIENTE> Pacientes { get; set; }
+        public virtual DbSet<TB_ATENDIMENTO> Atendimentos { get; set; }
+        public virtual DbSet<TB_ENDERECO> Enderecos { get; set; }
+        public virtual DbSet<TB_FUNCIONARIO> Funcionarios { get; set; }
+        public virtual DbSet<TB_MEDICAMENTO> Medicamentos { get; set; }
+        public virtual DbSet<TB_PACIENTE> Pacientes { get; set; }
 
         #endregion
 

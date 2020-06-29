@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\SERVICES\\SERVICES.csproj": {}
+    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\SERVICES\\SERVICES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\SERVICES\\SERVICES.csproj": {
+    "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\SERVICES\\SERVICES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\SERVICES\\SERVICES.csproj",
+        "projectUniqueName": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\SERVICES\\SERVICES.csproj",
         "projectName": "SERVICES",
-        "projectPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\SERVICES\\SERVICES.csproj",
+        "projectPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\SERVICES\\SERVICES.csproj",
         "packagesPath": "C:\\Users\\dpeco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital_v2\\Hospital\\SERVICES\\obj\\",
+        "outputPath": "C:\\Users\\dpeco\\Documents\\Repository\\Hospital\\Hospital\\SERVICES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
