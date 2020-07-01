@@ -42,7 +42,7 @@ namespace WebAPI
                     options.UseSqlServer(Configuration.GetConnectionString("HospitalDatabase")));
 
             services.AddScoped<IHospitalRepository, HospitalRepository>(r => new HospitalRepository(Configuration.GetSection("AppSettings").Get<AppSettings>().HospitalDatabase));
-            //services.AddScoped<IHospitalRepository, HospitalRepository>(r => new HospitalRepository(Configuration.GetConnectionString("HospitalDatabase")));
+            
             #endregion
 
             #region [ Serviços ]
