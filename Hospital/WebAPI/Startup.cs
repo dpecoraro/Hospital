@@ -12,11 +12,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using WebAPI.ApiServices;
 using WebAPI.ApiServices.Interface;
 using WebAPI.Repository;
 using WebAPI.Repository.Context;
 using WebAPI.Repository.Interface;
+using WebAPI.Security;
+using WebAPI.Security.Entities;
 
 namespace WebAPI
 {
@@ -31,11 +34,10 @@ namespace WebAPI
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddControllers();
-
+        {           
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
+            var settings = Configuration.GetSection("AppSettings").Get<AppSettings>();
 
             #region [ Context e Repositórios ]
             services.AddDbContext<HospitalContext>(options =>
@@ -49,6 +51,26 @@ namespace WebAPI
             services.AddScoped<IHospitalService, HospitalService>();
 
             #endregion
+
+
+            #region [ JWT Config ]
+
+            SigninConfiguration signinConfiguration = new SigninConfiguration();
+            services.AddSingleton(signinConfiguration);
+
+            TokenConfiguration tokenConfiguration = new TokenConfiguration();
+            //new ConfigureFromConfigurationOptions<TokenConfiguration>(settings.TokenConfiguration)
+            //    .Configure(tokenConfiguration);
+
+            services.AddSingleton(tokenConfiguration);
+
+            services.AddJwtSecurity(signinConfiguration, tokenConfiguration);
+
+            #endregion
+
+            services.AddControllers();
+
+            services.AddCors();
 
         }
 

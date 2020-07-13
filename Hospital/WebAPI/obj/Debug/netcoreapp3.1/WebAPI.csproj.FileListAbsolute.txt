@@ -202,5 +202,13 @@ C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreap
 C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\JWT.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\dpeco\Documents\Repository\Hospital\Hospital\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
